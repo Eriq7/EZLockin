@@ -7,25 +7,29 @@ EZLockIn keeps you focused using two game-inspired mechanics: **randomness** and
 
 ## Origin & Philosophy
 
-### Why do games keep people playing, but studying feels hard to sustain?
+> **Why can games keep people playing for hours, but studying often feels hard to sustain?**  
+> Many addictive games rely on two simple mechanics: **Randomness** (curiosity) and **Rewards** (positive feedback).  
+> EZLockIn applies the same loop to studying.
 
-Games stay addictive because they repeatedly trigger two simple mechanisms:
+### Game Mechanics → EZLockIn Mapping
 
-| Game Mechanic | What it does to your brain | How **EZLockIn** uses it |
-|---|---|---|
-| 🎲 **Randomness** | Keeps you curious because you don’t know what happens next | Focus sessions are **randomized** (e.g., 3m, 5m, 3m15s) |
-| 🎁 **Rewards** | Gives small “wins” that motivate you to repeat the loop | Every session ends with a **10-second reward break** |
+| Mechanic | In Games | In EZLockIn |
+| :-- | :-- | :-- |
+| 🎲 **Randomness** | You don’t know what happens next, so your brain stays curious. | Focus session length is randomized (e.g., **3 min**, **5 min**, **3m 15s**). |
+| 🎁 **Rewards** | Small wins make you want to repeat the loop. | After each focus session, you get a **10-second reward break**. |
 
-✅ Result: studying becomes a lightweight **game loop** — less pressure, more momentum.
+**Result:** a lightweight “game loop” that makes studying feel easier to continue.
 
 ---
 
 ## Core Features
 
-* 🎲 **Random Focus Cycles**: Randomly generates focus durations within a configurable range.
-* ☕️ **Smart Break System**: Automatically switches between short breaks and long breaks.
-* 📊 **Study Logging**: Logs each completed session to `study_log.csv` for review and analysis.
-* 🎨 **Highly Configurable**: Customize timings, sounds, and more using `config.json`.
+| Feature | What it does |
+| :-- | :-- |
+| 🎲 **Random Focus Cycles** | Randomly generates focus durations within a configurable range. |
+| ☕️ **Smart Break System** | Automatically switches between short breaks and long breaks. |
+| 📊 **Study Logging** | Logs each completed session to `study_log.csv` for review and analysis. |
+| 🎨 **Highly Configurable** | Customize timings, sounds, and more using `config.json`. |
 
 ---
 
@@ -35,8 +39,10 @@ Games stay addictive because they repeatedly trigger two simple mechanisms:
 
 ## Usage Guide
 
-* **Move**: Drag the window.
-* **Right-click Menu**: Right-click the window to access all features.
+| Action | How |
+| :-- | :-- |
+| **Move** | Drag the window. |
+| **Right-click Menu** | Right-click the window to access all features. |
 
 #### Right-click Menu Options
 
@@ -84,3 +90,16 @@ This project uses `requirements.txt` to manage dependencies.
 
 ```bash
 pip install -r requirements.txt
+```
+
+#### 3. Run from Source
+
+```bash
+python study_timer_gui.py
+```
+
+---
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
