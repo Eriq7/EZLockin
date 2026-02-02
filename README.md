@@ -3,21 +3,22 @@
 A desktop study companion designed to fight **timer anxiety**.  
 EZLockIn keeps you focused using two game-inspired mechanics: **randomness** and **rewards**.
 
+---
+
 ## Origin & Philosophy
 
-Why can games keep people playing for hours, but studying often feels hard to sustain?
+### Why do games keep people playing, but studying feels hard to sustain?
 
-Most addictive games rely on two key mechanics:
+Games stay addictive because they repeatedly trigger two simple mechanisms:
 
-* **Randomness**: you never fully know what happens next, so your brain stays curious and engaged.
-* **Rewards**: finishing a task gives you a small “win”, making you want to repeat the loop.
+| Game Mechanic | What it does to your brain | How **EZLockIn** uses it |
+|---|---|---|
+| 🎲 **Randomness** | Keeps you curious because you don’t know what happens next | Focus sessions are **randomized** (e.g., 3m, 5m, 3m15s) |
+| 🎁 **Rewards** | Gives small “wins” that motivate you to repeat the loop | Every session ends with a **10-second reward break** |
 
-EZLockIn applies the same idea to studying:
+✅ Result: studying becomes a lightweight **game loop** — less pressure, more momentum.
 
-* 🎲 **Randomness**: your focus session length is randomized (e.g., 3 minutes, 5 minutes, 3m 15s).
-* 🎁 **Rewards**: after each focus session, you get a **10-second reward break**.
-
-This creates a lightweight “game loop” so studying feels easier to continue.
+---
 
 ## Core Features
 
@@ -26,7 +27,11 @@ This creates a lightweight “game loop” so studying feels easier to continue.
 * 📊 **Study Logging**: Logs each completed session to `study_log.csv` for review and analysis.
 * 🎨 **Highly Configurable**: Customize timings, sounds, and more using `config.json`.
 
+---
+
 ## Quick Start (Recommended)
+
+---
 
 ## Usage Guide
 
@@ -46,6 +51,8 @@ This creates a lightweight “game loop” so studying feels easier to continue.
 | **📂 Open Log Folder** | Opens the program folder to view logs and configuration files. |
 | **❌ Quit** | Saves data and safely exits the app. |
 
+---
+
 ## Custom Configuration (`config.json`)
 
 On first launch, EZLockIn automatically creates a `config.json` file.  
@@ -58,6 +65,8 @@ Edit it with any text editor, then restart the app to apply changes.
 | `study_time_min` | Minimum focus duration per round (seconds). |
 | `study_time_max` | Maximum focus duration per round (seconds). |
 | `long_break_threshold` | Total accumulated focus time required to trigger a long break (seconds). |
+
+---
 
 ## For Developers
 
@@ -75,14 +84,3 @@ This project uses `requirements.txt` to manage dependencies.
 
 ```bash
 pip install -r requirements.txt
-```
-
-#### 3. Run from Source
-
-```bash
-python study_timer_gui.py
-```
-
-## License
-
-This project is licensed under the [MIT License](./LICENSE).
